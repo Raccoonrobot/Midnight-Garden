@@ -1,0 +1,94 @@
+.header{
+    font-family: "Bad Script";
+    background-color: whitesmoke;
+    position: fixed;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+    padding: 15px;
+    z-index: 1; 
+    margin-top: -30px;
+}
+
+.mission {
+    font-family: "Poiret One";
+    width: 100%;
+    color: antiquewhite;
+    background-color: #054b14;
+    padding-top: 100px;
+    height: 75px;
+    font-size: 32px;
+    text-align: center;
+}
+
+ul, li {
+    list-style-type: none;
+    padding-right: 30px;
+    display: inline;
+    font-family: "Poiret One";
+}
+.nav {
+
+    font-family: "Poiret One";
+    float: right;
+    display: inline;
+    justify-content: center;
+   
+}
+
+h1, h3, h4{
+    font-family: "Bad Script";
+    display: inline;
+}
+h2 {
+    color: antiquewhite;
+    font-family: "bad script";
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    font-family: "Poiret One";
+    text-align: center;
+    font-weight: bold;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid #000000;
+    flex: auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+    padding: 10px;
+    font-size: 16px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+
+  
+}
+#garden {
+    background-color: #054b14;
+    width: 100%;
+}
+.team {
+    display: inline;
+}
+.teammate {
+    display: inline-block;
+    margin: 2%;
+    padding: 10px;
+    font-size: 16px;
+
+}
+figcaption {
+    font-family: "Poiret One";
+    font-weight: bold;
+}
